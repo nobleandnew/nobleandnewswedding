@@ -1,0 +1,8 @@
+{
+  "host": "smtp.gmail.com",
+  "port": 465,
+  "ssl": true,
+  "user": "nobleandnew@gmail.com",
+  "password": "PASTE THE GMAIL APP PASSWORD HERE",
+  "to": "nobleandnew@gmail.com"
+}

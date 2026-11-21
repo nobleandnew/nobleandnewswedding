@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#071320" />
+  <title>Richy &amp; Lydia — June 18</title>
+  <meta name="description" content="Richy and Lydia invite you to celebrate with them on June 18 at 4:30 PM. Kindly reply and see who is coming." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Great+Vibes&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=13" />
+</head>
+<body>
+  <div class="scene" aria-hidden="true">
+    <div class="scene__image"></div>
+    <div class="scene__veil"></div>
+    <div class="scene__grain"></div>
+  </div>
+
+  <div class="petals" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <canvas id="confetti" class="confetti" aria-hidden="true"></canvas>
+
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow reveal">We can't wait to celebrate with you! </p>
+
+      <h1 class="names reveal">
+        <span class="names__rule" aria-hidden="true"></span>
+        <span class="names__name">Richy</span>
+        <span class="names__amp" aria-hidden="true">&amp;</span>
+        <span class="names__name">Lydia</span>
+        <span class="names__rule" aria-hidden="true"></span>
+      </h1>
+
+      <p class="vow reveal">Wedding ceremony and reception at The Old Barn in Nashville, IN</p>
+
+      <div class="portrait reveal">
+        <span class="portrait__glow" aria-hidden="true"></span>
+        <span class="portrait__frame">
+          <img src="assets/richy-lydia.jpg" alt="Richy and Lydia smiling together" width="660" height="660" />
+        </span>
+      </div>
+
+      <div class="divider reveal" aria-hidden="true">
+        <svg viewBox="0 0 280 26">
+          <path d="M6 13h94" stroke="currentColor" stroke-width="1" opacity="0.55" />
+          <path d="M180 13h94" stroke="currentColor" stroke-width="1" opacity="0.55" />
+          <circle cx="112" cy="13" r="1.7" fill="currentColor" opacity="0.75" />
+          <circle cx="168" cy="13" r="1.7" fill="currentColor" opacity="0.75" />
+          <path d="M140 21c-3.4-3.1-8.6-6.4-8.6-10.4a4.4 4.4 0 0 1 8.6-1.4 4.4 4.4 0 0 1 8.6 1.4c0 4-5.2 7.3-8.6 10.4z" fill="none" stroke="currentColor" stroke-width="1.2" />
+        </svg>
+      </div>
+
+      <p class="when reveal">
+        <span class="when__date" id="when-day">June 18</span>
+        <span class="when__sep" aria-hidden="true">&#10022;</span>
+        <span class="when__time" id="when-time">4:30 PM</span>
+      </p>
+
+      <section class="countdown reveal" aria-labelledby="countdown-label">
+        <h2 class="sr-only" id="countdown-label">Countdown to the celebration</h2>
+        <div class="countdown__grid" id="countdown">
+          <div class="unit">
+            <span class="unit__value" data-unit="days">00</span>
+            <span class="unit__label">Days</span>
+          </div>
+          <div class="unit">
+            <span class="unit__value" data-unit="hours">00</span>
+            <span class="unit__label">Hours</span>
+          </div>
+          <div class="unit">
+            <span class="unit__value" data-unit="minutes">00</span>
+            <span class="unit__label">Minutes</span>
+          </div>
+          <div class="unit">
+            <span class="unit__value" data-unit="seconds">00</span>
+            <span class="unit__label">Seconds</span>
+          </div>
+        </div>
+        <p class="countdown__note" id="countdown-note">Counting down to the big day</p>
+
+        <div class="details reveal">
+          <div class="detail">
+            <span class="detail__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 21s6.75-5.4 6.75-10.5a6.75 6.75 0 1 0-13.5 0C5.25 15.6 12 21 12 21z" />
+                <circle cx="12" cy="10.4" r="2.5" />
+              </svg>
+            </span>
+            <span class="detail__body">
+              <span class="detail__title">The Old Barn</span>
+              <span class="detail__meta">3016 Hoover Rd. Nashville, IN 47448</span>
+              <span class="detail__attire">
+                <span class="detail__attire-label">Wedding Attire:</span>
+                <span class="detail__attire-value">Casual Formal</span>
+              </span>
+            </span>
+            <span class="detail__actions">
+              <a class="detail__link" id="map-google" href="https://www.google.com/maps/search/?api=1&amp;query=The+Old+Barn%2C+3016+Hoover+Rd%2C+Nashville%2C+IN+47448" target="_blank" rel="noopener noreferrer">
+                <svg class="detail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17 17 7" />
+                  <path d="M9 7h8v8" />
+                </svg>
+                Google Maps
+              </a>
+              <a class="detail__link" id="map-apple" href="https://maps.apple.com/?q=The%20Old%20Barn%2C%203016%20Hoover%20Rd%2C%20Nashville%2C%20IN%2047448" target="_blank" rel="noopener noreferrer">
+                <svg class="detail__link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17 17 7" />
+                  <path d="M9 7h8v8" />
+                </svg>
+                Apple Maps
+              </a>
+            </span>
+          </div>
+        </div>
+      </section>
+    </header>
+  
+    
+    <section class="bridge">
+      <H1>RSVP By May 9 th</H1>
+      <svg class="quote__flourish reveal" viewBox="0 0 240 18" aria-hidden="true">
+        <path d="M8 9h76" stroke="currentColor" stroke-width="1" opacity="0.45" />
+        <path d="M156 9h76" stroke="currentColor" stroke-width="1" opacity="0.45" />
+        <path d="M120 15c-2.6-2.4-6.5-4.8-6.5-7.9A3.4 3.4 0 0 1 120 5a3.4 3.4 0 0 1 6.5 2.1c0 3.1-3.9 5.5-6.5 7.9z" fill="currentColor" opacity="0.85" />
+      </svg>
+    </section>
+
+    <section class="panels">
+      <article class="card reveal" id="rsvp">
+        <p class="card__eyebrow">Kindly reply</p>
+        <h2 class="card__title">Will you join us?</h2>
+
+        <form class="rsvp" id="rsvp-form" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="guest-first">First name</label>
+              <input
+                id="guest-first"
+                name="first"
+                type="text"
+                placeholder="Ada"
+                autocomplete="given-name"
+                maxlength="32"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="guest-last">Last name</label>
+              <input
+                id="guest-last"
+                name="last"
+                type="text"
+                placeholder="Lovelace"
+                autocomplete="family-name"
+                maxlength="32"
+                required
+              />
+            </div>
+          </div>
+
+          <fieldset class="choice">
+            <legend class="sr-only">Your reply</legend>
+            <label class="choice__option">
+              <input type="radio" name="reply" value="yes" checked />
+              <span>Joyfully accepts</span>
+            </label>
+            <label class="choice__option">
+              <input type="radio" name="reply" value="no" />
+              <span>Regretfully declines</span>
+            </label>
+          </fieldset>
+
+          <fieldset class="checks">
+            <legend class="checks__legend">Will you need a place to stay?</legend>
+            <label class="check">
+              <input type="checkbox" name="stay" value="Camping" />
+              <span>Camping</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" name="stay" value="Other place" />
+              <span>Other place</span>
+            </label>
+          </fieldset>
+
+          <fieldset class="checks">
+            <legend class="checks__legend">Food <span class="field__opt">tick anything that applies</span></legend>
+            <label class="check">
+              <input type="checkbox" name="food" value="Vegan" />
+              <span>Vegan</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" name="food" value="Gluten-free" />
+              <span>Gluten-free</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" name="food" value="Allergies" />
+              <span>Allergies</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" name="food" value="Other" />
+              <span>Other</span>
+            </label>
+          </fieldset>
+
+          <div class="field">
+            <label for="food-note">Anything else we should know? <span class="field__opt">optional</span></label>
+            <input
+              id="food-note"
+              name="foodNote"
+              type="text"
+              maxlength="200"
+              placeholder="Allergies, other place, anything at all…"
+            />
+          </div>
+
+          <button class="btn" type="submit" id="rsvp-submit">
+            <span>Send my RSVP</span>
+          </button>
+
+          <p class="form-note" id="form-note" role="status"></p>
+        </form>
+
+        <div class="thanks" id="thanks" hidden>
+          <p class="thanks__mark" aria-hidden="true">&#10022;</p>
+          <p class="thanks__line" id="thanks-line"></p>
+          <button class="link-btn" type="button" id="edit-rsvp">Change my response</button>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <p class="card__eyebrow">The guest list</p>
+        <h2 class="card__title">Who is coming</h2>
+
+        <p class="tally" aria-live="polite">
+          <span class="tally__number" id="tally-number">0</span>
+          <span class="tally__label" id="tally-label">guests attending</span>
+        </p>
+
+        <ul class="guests" id="guests"></ul>
+        <p class="empty" id="guests-empty">Be the first to reply.</p>
+      </article>
+    </section>
+
+    <section class="wishes" aria-labelledby="wishes-title">
+      <p class="eyebrow reveal">From our guests</p>
+      <h2 class="section-title reveal" id="wishes-title">Stories &amp; wishes</h2>
+
+      <ul class="wishes__list" id="wishes"></ul>
+      <p class="empty wishes__empty" id="wishes-empty">No stories yet — reply and tell us one, or leave us a wish.</p>
+    </section>
+
+    <section class="gallery" aria-labelledby="gallery-title">
+      <p class="eyebrow reveal">Moments</p>
+      <h2 class="section-title reveal" id="gallery-title">A glimpse of the years</h2>
+
+      <div class="slides reveal" id="slides" role="region" aria-roledescription="carousel" aria-label="Photographs of the celebration">
+        <div class="slides__viewport">
+          <div class="slides__track" id="slides-track"></div>
+
+          <button class="slides__btn slides__btn--prev" id="slides-prev" type="button" aria-label="Previous photo">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </button>
+          <button class="slides__btn slides__btn--next" id="slides-next" type="button" aria-label="Next photo">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </button>
+        </div>
+
+        <div class="slides__dots" id="slides-dots"></div>
+      </div>
+    </section>
+  
+
+    <footer class="footer">
+      <span class="footer__monogram" aria-hidden="true">R &amp; L</span>
+      <span class="footer__rule" aria-hidden="true"></span>
+      <p>Created by <span class="footer__name">Richard Noble</span></p>
+    </footer>
+  </main>
+
+  <script src="script.js?v=13"></script>
+</body>
+</html>
